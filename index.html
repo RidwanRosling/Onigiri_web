@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hitamori</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Hitamori</h2>
+          <h2 class="heading">Onigiri Dengan Sentuhan Bahan lokal</h2>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">Sekiro</h4>
+          <p class="item"></p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">Got</h4>
+          <p class="item"></p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Hitamori</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <!-- services -->
+      <div class="services">
+        <div class="service">
+          <div class="icon">🎮</div>
+          <h3>Tutorial</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sed
+          necessitatibus fugit! Ipsum, mollitia optio?
+        </div>
+        <div class="service">
+          <div class="icon">🎮</div>
+          <h3>Recomend</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sed
+          necessitatibus fugit! Ipsum, mollitia optio?
+        </div>
+        <div class="service">
+          <div class="icon">🎮</div>
+          <h3>Worth to buy</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sed
+          necessitatibus fugit! Ipsum, mollitia optio?
+        </div>
+        <div class="service">
+          <div class="icon">🎮</div>
+          <h3>Genre</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores sed
+          necessitatibus fugit! Ipsum, mollitia optio?
+        </div>
+      </div>
+
+      <!-- gallery -->
+      <section class="Gallery">
+        <h2>Gallery</h2>
+        <img src="img/1.png" alt="" />
+        <img src="img/2.png" alt="" />
+        <img src="img/3.png" alt="" />
+        <img src="img/4.png" alt="" />
+        <img src="img/5.png" alt="" />
+        <img src="img/6.png" alt="" />
+        <img src="img/7.png" alt="" />
+        <img src="img/8.png" alt="" />
+        <img src="img/9.png" alt="" />
+        <img src="img/10.png" alt="" />
+      </section>
+    </div>
+
+    <!-- js -->
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
